@@ -22,7 +22,7 @@ function Navbar() {
             <div className="nav container mx-auto px-10 lg:px-40 flex justify-between items-center py-4">
                 <div className="nav-logo">
                     <h1 className="logo-text">
-                        <Link href={"/"} className="text-white">Sana Tea</Link>
+                        <Link href={"/"} >Sana Tea</Link>
                     </h1>
                 </div>
 
@@ -46,7 +46,7 @@ function Navbar() {
                 </button>
 
                 {/* Mobile Navigation */}
-                <div className={`mob-nav fixed top-0 left-0 w-full h-full bg-gray-800 text-white flex flex-col items-center justify-evenly transition-transform duration-300 ${mobNav ? "translate-x-0" : "-translate-x-full"}`}>
+                <div className={`mob-nav fixed top-0 left-0 w-full h-full bg-[#928d81] text-white flex flex-col items-center justify-evenly transition-transform duration-300 ${mobNav ? "translate-x-0" : "-translate-x-full"}`}>
                     <h1 className="logo-text">
                         <Link href={"/"}>Sana Tea</Link>
                     </h1>

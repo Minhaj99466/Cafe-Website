@@ -8,23 +8,26 @@
   height: 80px;
   align-items: center;
   position: absolute;
-  background-color: black;
+  /* background-color: black; */  
 }
 
 .logo-text {
   font-family: cursive;
-  font-size: large;
+  font-size: xx-large;
   font-weight: 600;
+  color: #991b1b
 }
 
 .nav-list ul {
   display: flex;
   gap: 10;
   list-style-type: none;
-  color: white;
+  color: #991b1b;
+  font-family:  cursive;
+  font-weight: 600;
 }
 ul li a:hover {
-  color: rgb(195, 148, 72);
+  color: rgb(255, 255, 255);
 }
 
 .main {
@@ -34,9 +37,52 @@ ul li a:hover {
   width: 100%;
 }
 .main-image{
-  background-image: url('/assets/main/974de83de57b7c0674552b86dcb90fdc.jpg');
-  object-fit: cover;
+  background-image: url('../public/assets/main/dfe7b9e7271d6250d2dbb1939b97860c.jpg');
+  background-size: cover; /* or 'contain' based on preference */
+  background-position: center;
+  background-repeat: no-repeat;
   height: 80vh;
   width: 90%;
   margin-top: 40px;
 }
+.main-text{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-variant: small-caps;
+font-weight: bolder;
+}
+
+.info-text h1{
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4em;
+  line-height:.8em;
+  font-weight: bolder;
+  font-variant: small-caps;
+  letter-spacing: -1;
+  color: white;
+}
+.infosec-text h3{
+  font-family:  Bebas 'Courier New', Courier, monospace;
+  font-size: 3em;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: white;
+}
+.head{
+  font-family: cursive;
+  font-size: .6em;
+}
+
+.infosec-text h1{
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4em;
+  line-height:.8em;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: white;
+
+}
+.infosec-text p{
+  font-size: 1em;
+  font-variant: small-caps;
+}
+
